@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/everton-oa/cypress-cucumber-framework#readme",
   "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^21.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.3",
     "cypress": "^12.14.0"
+  },
+  "cypress-cucumber-preprossessor": {
+    "stepDefinitions": "cypress/support/step_definitions/**/*.js"
   }
 }
