@@ -25,6 +25,7 @@ This project is built using:
 - **Library: JQuery**
 - **Library: Cucumber**
 - **Git/GitHub**
+- **Selectors Plugin - [Ranorex Selocity](https://chromewebstore.google.com/detail/ranorex-selocity/ocgghcnnjekfpbmafindjmijdpopafoe)**
 
 ## Goals
 
@@ -43,5 +44,5 @@ This project is built using:
 - Instructor - Gianni Bruno
 
 ## Usefull links
-[cypress-cucumber-preprocessor](https://github.com/badeball/cypress-cucumber-preprocessor)
-
+- [cypress-cucumber-preprocessor](https://github.com/badeball/cypress-cucumber-preprocessor)
+- [cucumber-expressions](https://github.com/cucumber/cucumber-expressions)
