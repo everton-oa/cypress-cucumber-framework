@@ -20,3 +20,14 @@ And I type a last name
 And I type a comment
 And I click on the submit button
 Then I should be presented with an unsuccessful contact us submission message
+
+Scenario: Valid Contact Us Form Submission - Using specific data
+
+Given I navigate to the webdriveruniversity homepage
+When I click on the contact us button
+And I type a specific first name "Sara"
+And I type a specific last name "Woods"
+And I enter a specific email address "sara@email.com"
+And I type a specific word "Hello123 " and number 123456
+And I click on the submit button
+Then I should be presented with a successful contact us submission message
