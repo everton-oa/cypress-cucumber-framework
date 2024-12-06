@@ -1,0 +1,27 @@
+{
+  "name": "cypress-cucumber-framework",
+  "version": "1.0.0",
+  "description": "![cypress](/cypress/resources/cypress.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everton-oa/cypress-cucumber-framework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/everton-oa/cypress-cucumber-framework/issues"
+  },
+  "homepage": "https://github.com/everton-oa/cypress-cucumber-framework#readme",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^21.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.3",
+    "cypress": "^12.14.0"
+  },
+  "cypress-cucumber-preprossessor": {
+    "stepDefinitions": "cypress/support/step_definitions/**/*.js"
+  }
+}
