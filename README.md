@@ -23,6 +23,7 @@ This project is built using:
 - **Testing framework: Cypress**
 - **Testing framework: Mocha**
 - **Library: JQuery**
+- **Library: Cucumber**
 - **Git/GitHub**
 
 ## Goals
