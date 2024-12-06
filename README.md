@@ -25,6 +25,7 @@ This project is built using:
 - **Library: JQuery**
 - **Library: Cucumber**
 - **Git/GitHub**
+- **Selectors Plugin - [Ranorex Selocity](https://chromewebstore.google.com/detail/ranorex-selocity/ocgghcnnjekfpbmafindjmijdpopafoe)**
 
 ## Goals
 
