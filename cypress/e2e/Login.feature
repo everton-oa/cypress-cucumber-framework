@@ -1,3 +1,4 @@
+@login @regression
 Feature: WebdriverUniversity - Login Page
 
     Scenario Outline: Validate valid and invalid login credentials

@@ -1,3 +1,4 @@
+@contact-us @regression
 Feature: WebdriverUniversity - Contact Us Page
 
     Background: Visit page
@@ -6,6 +7,7 @@ Feature: WebdriverUniversity - Contact Us Page
         When I click on the contact us button
 
 
+    @smoke
     Scenario: Valid Contact Us Form Submission
         
         And I type a first name

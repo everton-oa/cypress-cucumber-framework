@@ -49,3 +49,6 @@ This project is built using:
 
 
 Testing committing directly to the master branch after protection rules were added
+
+## Run using tags
+- npx cypress run -e TAGS='@smoke' --headed 
