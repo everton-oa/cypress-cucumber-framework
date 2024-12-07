@@ -4,7 +4,9 @@
   "description": "![cypress](/cypress/resources/cypress.png)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "regression-headed": "cypress run --headed --spec 'cypress/e2e/*.feature'",
+    "smoke-headed": "cypress run --headed -e TAGS='@smoke'"
   },
   "repository": {
     "type": "git",
