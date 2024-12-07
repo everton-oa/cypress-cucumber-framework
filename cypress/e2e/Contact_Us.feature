@@ -36,8 +36,8 @@ Feature: WebdriverUniversity - Contact Us Page
 
         Given I navigate to the webdriveruniversity homepage
         When I click on the contact us button
-        And I type a first name <firstName> and a last name '<lastName'
-        And I type a <emailAddress> and a '<comment'
+        And I type a first name <firstName> and a last name '<lastName>'
+        And I type a <emailAddress> and a '<comment>'
         And I click on the submit button
         Then I should be presented with header text '<message>'
 
