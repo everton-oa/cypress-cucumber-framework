@@ -1,9 +1,13 @@
 Feature: WebdriverUniversity - Contact Us Page
 
-    Scenario: Valid Contact Us Form Submission
-
+    Background: Visit page
+        
         Given I navigate to the webdriveruniversity homepage
         When I click on the contact us button
+
+
+    Scenario: Valid Contact Us Form Submission
+        
         And I type a first name
         And I type a last name
         And I enter an email address
@@ -13,8 +17,6 @@ Feature: WebdriverUniversity - Contact Us Page
 
     Scenario: Invalid Contact Us Form Submission
 
-        Given I navigate to the webdriveruniversity homepage
-        When I click on the contact us button
         And I type a first name
         And I type a last name
         And I type a comment
@@ -23,8 +25,6 @@ Feature: WebdriverUniversity - Contact Us Page
 
     Scenario: Valid Contact Us Form Submission - Using specific data
 
-        Given I navigate to the webdriveruniversity homepage
-        When I click on the contact us button
         And I type a specific first name "Sara"
         And I type a specific last name "Woods"
         And I enter a specific email address "sara@email.com"
@@ -34,8 +34,6 @@ Feature: WebdriverUniversity - Contact Us Page
 
     Scenario Outline: Scenario Outline page
 
-        Given I navigate to the webdriveruniversity homepage
-        When I click on the contact us button
         And I type a first name <firstName> and a last name <lastName>
         And I type a '<emailAddress>' and a '<comment>'
         And I click on the submit button
