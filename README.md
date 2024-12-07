@@ -46,3 +46,6 @@ This project is built using:
 ## Usefull links
 - [cypress-cucumber-preprocessor](https://github.com/badeball/cypress-cucumber-preprocessor)
 - [cucumber-expressions](https://github.com/cucumber/cucumber-expressions)
+
+
+Testing committing directly to the master branch after protection rules were added
